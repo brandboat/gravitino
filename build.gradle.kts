@@ -508,7 +508,8 @@ tasks {
       ":catalogs:catalog-hive:copyLibAndConfig",
       ":catalogs:catalog-lakehouse-iceberg:copyLibAndConfig",
       ":catalogs:catalog-jdbc-mysql:copyLibAndConfig",
-      ":catalogs:catalog-jdbc-postgresql:copyLibAndConfig"
+      ":catalogs:catalog-jdbc-postgresql:copyLibAndConfig",
+      ":catalogs:catalog-jdbc-sqlite:copyLibAndConfig",
       // TODO. add fileset catalog to the distribution when ready.
     )
   }
